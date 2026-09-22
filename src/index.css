@@ -3,12 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-  --text: #e6f5f8;
+  --text: #eee4d4;
   --text-h: #08060d;
-  --bg: #061521;
+  --bg: #11100f;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
-  --accent: #83d8ed;
+  --accent: #d7b98a;
   --accent-bg: rgba(170, 59, 255, 0.1);
   --accent-border: rgba(170, 59, 255, 0.5);
   --social-bg: rgba(244, 243, 236, 0.5);
@@ -19,7 +19,7 @@
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
-  font: 18px/145% var(--sans);
+  font: 16px/145% var(--sans);
   letter-spacing: 0.18px;
   color-scheme: dark;
   color: var(--text);
@@ -55,11 +55,11 @@
 }
 
 html, body { width: 100%; overflow-x: hidden; }
-body { margin: 0; min-width: 320px; background: #061521; }
+body { margin: 0; min-width: 320px; background: #11100f; }
 
 html { scroll-behavior: smooth; }
 * { box-sizing: border-box; }
-::selection { color: #061521; background: #83d8ed; }
+::selection { color: #11100f; background: #d7b98a; }
 
 h1,
 h2 {
@@ -69,7 +69,7 @@ h2 {
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 48px;
   letter-spacing: -1.68px;
   margin: 32px 0;
   @media (max-width: 1024px) {
@@ -78,7 +78,7 @@ h1 {
   }
 }
 h2 {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 118%;
   letter-spacing: -0.24px;
   margin: 0 0 8px;
