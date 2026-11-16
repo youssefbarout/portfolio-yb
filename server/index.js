@@ -10,7 +10,7 @@ import mysql from 'mysql2/promise'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const dataDirectory = path.join(__dirname, '..', 'data')
 const messagesFile = path.join(dataDirectory, 'messages.json')
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 3002
 const recipientEmail = process.env.CONTACT_EMAIL || 'baroutyoussef@gmail.com'
 const app = express()
 const smtpConfigured = Boolean(
